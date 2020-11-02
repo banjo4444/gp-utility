@@ -1,0 +1,13 @@
+.card {
+
+  &__base {
+    box-shadow: 0 13px 14px -12px rgba(0,0,0,0.75);
+    border: 2px solid #fff;
+    border-radius: 5px;
+  }
+
+  &__header {
+    border-bottom: 2px solid #fff;
+  }
+
+}

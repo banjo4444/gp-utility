@@ -1,0 +1,26 @@
+@import "../../styles/colours";
+
+a.button {
+
+  &:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+
+  > label:hover {
+    cursor: pointer;
+  }
+
+}
+
+.menu__item {
+  &:hover {
+    cursor: pointer;
+    background-color: #4d4d4d;
+  }
+
+  a > label {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
